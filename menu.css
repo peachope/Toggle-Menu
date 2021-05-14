@@ -1,113 +1,116 @@
 * {
-  margin: 0;
-  text-decoration: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 li,
 ol {
-  list-style: none;
+    list-style: none;
 }
 
 .container {
-  max-width: 600px;
-  margin: 0 auto;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 5px;
 }
 
 .container .menu-right {
-  width: 200px;
-  height: 40px;
-  border-radius: 4px;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  cursor: pointer;
-  position: relative;
-  background: blue;
+    width: 200px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    background: blue;
 }
 
 .container .menu-right .menu-child {
-  position: absolute;
-  background: #333;
-  display: none;
-  top: 110%;
-  width: 100%;
-  text-align: center;
-  border-radius: 4px;
-  padding: 0;
-  border-bottom: 1px solid white;
+    position: absolute;
+    background: #333;
+    display: none;
+    top: 110%;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0;
+    border-bottom: 1px solid white;
 }
 
 .container .menu-right .menu-child li {
-  padding: 5px;
+    padding: 5px;
 }
 
 .container .menu-right .menu-child li:last-child {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .container .menu-right .menu-child.visible {
-  display: block;
+    display: block;
 }
 
 .container .menu-left {
-  width: 200px;
-  height: 40px;
-  border-radius: 4px;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  cursor: pointer;
-  position: relative;
-  background: #f09;
+    width: 200px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    background: #f09;
 }
 
 .container .menu-left .menu-child {
-  position: absolute;
-  background: #333;
-  display: none;
-  top: 110%;
-  width: 100%;
-  text-align: center;
-  border-radius: 4px;
-  padding: 0;
-  border-bottom: 1px solid white;
+    position: absolute;
+    background: #333;
+    display: none;
+    top: 110%;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0;
+    border-bottom: 1px solid white;
 }
 
 .container .menu-left .menu-child li {
-  padding: 5px;
+    padding: 5px;
 }
 
 .container .menu-left .menu-child li:last-child {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .container .menu-left .menu-child.visible {
-  display: block;
+    display: block;
+    transition: all 0.35s ease-in;
 }
+
+
 /*# sourceMappingURL=menu.css.map */
